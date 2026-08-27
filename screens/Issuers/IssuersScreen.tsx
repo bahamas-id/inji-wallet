@@ -467,20 +467,20 @@ export const IssuersScreen: React.FC<
             }}>
             {t('description')}
           </Text>
-          /* {search === '' && (
-            <View style={{height: 85}}>
-              <Issuer
-                defaultLogo={ScanIcon}
-                displayDetails={{
-                  title: t('offerTitle'),
-                  locale: i18n.language,
-                  description: t('offerDescription'),
-                }}
-                onPress={controller.SCAN_CREDENTIAL_OFFER_QR_CODE}
-                testID={'credentalOfferButton'}
-              />
-            </View>
-          )} */
+         {/* {search === '' && (
++           <View style={{height: 85}}>
++             <Issuer
++               defaultLogo={ScanIcon}
++               displayDetails={{
++                 title: t('offerTitle'),
++                 locale: i18n.language,
++                 description: t('offerDescription'),
++               }}
++               onPress={controller.SCAN_CREDENTIAL_OFFER_QR_CODE}
++               testID={'credentalOfferButton'}
++             />
++           </View>
++         )} */}
 
           <Column scroll style={Theme.IssuersScreenStyles.issuersContainer}>
             {controller.issuers.length > 0 && (
