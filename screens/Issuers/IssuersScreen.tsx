@@ -467,7 +467,7 @@ export const IssuersScreen: React.FC<
             }}>
             {t('description')}
           </Text>
-          {search === '' && (
+          /* {search === '' && (
             <View style={{height: 85}}>
               <Issuer
                 defaultLogo={ScanIcon}
@@ -480,7 +480,7 @@ export const IssuersScreen: React.FC<
                 testID={'credentalOfferButton'}
               />
             </View>
-          )}
+          )} */
 
           <Column scroll style={Theme.IssuersScreenStyles.issuersContainer}>
             {controller.issuers.length > 0 && (
