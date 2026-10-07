@@ -136,7 +136,7 @@ export const getMosipIdentifier = (credentialSubject: CredentialSubject) => {
   return (
     credentialSubject.UIN ?? credentialSubject.VID ?? credentialSubject.HANDLE
 );
-
+};
 export const isTranslationKeyFound = (
   translationKey: string,
   t: (key: string) => string,
