@@ -32,6 +32,7 @@ export interface CredentialSubject {
   //TODO: This should change to mandatory field if uin is also issued
   UIN?: string;
   VID?: string;
+  ationalInsuranceBoard?: string;
   HANDLE?: string;
   addressLine1: LocalizedField[] | string;
   city: LocalizedField[] | string;
